@@ -1,0 +1,88 @@
+/* Global Reset */
+body {
+  background-color: black;
+  color: seashell;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+a {
+  color: seashell;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header */
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  padding: 10px 50px;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+}
+
+/* Hero */
+.hero-section {
+  background-image: url("images/hero.jpg"); /* Add your actual image */
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.hero-content {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+}
+
+/* Section titles */
+section h2 {
+  font-size: 32px;
+  margin-top: 40px;
+}
+
+/* Grid layout */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 0;
+}
+
+.tea-card,
+.location-card {
+  background-color: gray;
+  height: 200px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.8;
+}
+
+/* Footer */
+footer {
+  background-color: black;
+  padding: 20px;
+  font-size: 18px;
+}
